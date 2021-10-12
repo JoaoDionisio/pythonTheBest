@@ -1,6 +1,6 @@
 from rich import print
 
-
+# even odd
 def par_impar():
     numero = 5000
     if (numero % 2) == 0:
