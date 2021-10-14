@@ -57,11 +57,10 @@ while ordem:
 
     esc_jogador = input("Você quer jogar novamente?")
     esc_jogador.lower()
-    print(esc_jogador)
+    #  print(esc_jogador)
 
     if esc_jogador in "sim":
         print("Very well. Let's start again.")
 
     if esc_jogador in "naonão":
-        ordem = False
-        print(ordem)
+        break
