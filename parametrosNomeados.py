@@ -7,4 +7,5 @@ def imprimir_nome(nome, sobrenome, idade):
     print(f"Idade: {idade}")
 
 
-imprimir_nome(sobrenome="Lucena", nome="Prince", idade=2)
+sobrenome = "Lucena"
+imprimir_nome(sobrenome=sobrenome, nome="Prince", idade=2)
