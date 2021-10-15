@@ -1,5 +1,7 @@
 from rich import print
 
+#  FUNÇÃO COM 3 PARÂMETROS OBRIGATÓRIOS.
+
 
 def imprimir_nome(nome, sobrenome, idade):
     print(f"Nome: {nome}")
@@ -7,5 +9,5 @@ def imprimir_nome(nome, sobrenome, idade):
     print(f"Idade: {idade}")
 
 
-sobrenome = "Lucena"
-imprimir_nome(sobrenome=sobrenome, nome="Prince", idade=2)
+#  PARÂMETROS NOMEADOS
+imprimir_nome(sobrenome="Lucena", nome="Prince", idade=2)
