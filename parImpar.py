@@ -6,8 +6,9 @@ resto = 0
 resto = dividendo % divisor
 quociente = dividendo / divisor
 
-print("Dividendo {} com o divisor {} tera o quociente: {}.".format(dividendo, divisor, quociente))
-print("Dividendo {} com o divisor {} tera o resto: {}.".format(dividendo, divisor, resto))
+print(f"Dividendo {dividendo} com o divisor {divisor} tera o quociente: "
+      f"{quociente}.")
+print(f"Dividendo {dividendo} com o divisor {divisor} tera o resto: {resto}.")
 
 if resto == 0:
     print("O número é positivo!")
