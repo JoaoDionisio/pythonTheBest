@@ -16,8 +16,8 @@ else:
 
 print(f"A média aritmética destes 2 elementos é {(x+y)/2}")
 
-"""02 - Escreva uma função de potenciação, em que os dados de entrada são: base e
-expoente (inteiros)."""
+"""02 - Escreva uma função de potenciação, em que os dados de entrada são:
+base e expoente (inteiros)."""
 
 
 def pot(base, expoente):

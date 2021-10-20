@@ -9,7 +9,7 @@ nome = "Python - variável global"  # VARIÁVEL GLOBAL
 
 def minha_funcao():
     # BLOCO INTERNO --> corpo da Função
-    nome = "Anna - variável local"  # variável local 
+    nome = "Anna - variável local"  # variável local
     print(nome, "\n")
 
 
