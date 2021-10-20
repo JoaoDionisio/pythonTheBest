@@ -6,7 +6,7 @@ def minha_funcao(nome=None):
         size = 0
     else:
         size = len(nome)
-    print(f"Olá {nome}. O seu nome tem {size} letras.")    
+    print(f"Olá {nome}. O seu nome tem {size} letras.")
 
 
 nome = input("Qual o seu nome: ")
