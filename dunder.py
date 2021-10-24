@@ -1,0 +1,8 @@
+""" OBJETOS DUNDER """
+"""DIGITE PYTHON NO TERMINAL"""
+"""DIGITE DIR()"""
+"""IRÁ APARECER __ANNOTATIONS__ ETC"""
+"""UTILIZADO PARA USO INTERNO DO PYTHON"""
+"""import dunder"""
+"""dunder.__name__"""
+"""'dunder'"""
