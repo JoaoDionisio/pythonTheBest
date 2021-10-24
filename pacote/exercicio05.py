@@ -1,4 +1,4 @@
-"""Faça um programa que calcula a media de idade das meninas e a dos 
+"""Faça um programa que calcula a media de idade das meninas e a dos
 meninos de um total de 5 alunos."""
 
 contador = totalIdF = totalF = totalIdM = totalM = idade = 0
@@ -10,7 +10,7 @@ while(contador < 5):
     idade = int(input("Digite a idade do aluno(a):"))
     if sexo == "menina":
         totalIdF += idade
-        totalF += 1      
+        totalF += 1
     else:
         totalIdM += idade
         totalM += 1
