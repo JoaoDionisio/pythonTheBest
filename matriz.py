@@ -25,7 +25,7 @@ def cria_matriz(num_linhas, num_colunas):
     for i in range(num_linhas):
         linha = []
         for j in range(num_colunas):
-            valor = int(input("Digite o elemento [" + str(i) + "][" + str(j) + "]"))
+            valor = int(input(f"Digite o elemento [{i}][{j}]: "))
             linha.append(valor)
 
         matriz.append(linha)
