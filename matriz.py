@@ -35,6 +35,6 @@ def cria_matriz(num_linhas, num_colunas):
 
 lin = int(input("Digite o número de linhas da matriz: "))
 col = int(input("Digite o número de colunas da matriz: "))
-linhaPrint(col)
+# linhaPrint(col)
 m = cria_matriz(lin, col)
 printMatriz(m)
